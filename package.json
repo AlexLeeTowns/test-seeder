@@ -1,0 +1,26 @@
+{
+  "name": "test-seeder",
+  "version": "0.0.1",
+  "description": "Framework for creating data used in software testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moseboelle/test-seeder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moseboelle/test-seeder/issues"
+  },
+  "homepage": "https://github.com/Moseboelle/test-seeder#readme",
+  "dependencies": {
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "ts-node": "^9.0.0",
+    "tslint": "^6.1.3"
+  }
+}
