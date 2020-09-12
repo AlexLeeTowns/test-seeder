@@ -17,9 +17,12 @@
   },
   "homepage": "https://github.com/Moseboelle/test-seeder#readme",
   "dependencies": {
+    "axios": "^0.20.0",
     "typescript": "^4.0.2"
   },
   "devDependencies": {
+    "@types/faker": "^4.1.12",
+    "faker": "^5.1.0",
     "ts-node": "^9.0.0",
     "tslint": "^6.1.3"
   }
