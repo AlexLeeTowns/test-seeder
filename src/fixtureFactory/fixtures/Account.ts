@@ -1,14 +1,12 @@
 import { random, company } from 'faker'
 import Model from './Model'
 
-export default new class Account extends Model {
-    get body() {
-        return {
-            ...{
-                id: random.uuid(),
-                name: company.companyName()
-            },
-            ...this.userParams
-        }
+export default class Account extends Model {
+    body = {
+        ...{
+            id: random.uuid(),
+            name: company.companyName()
+        },
+        ...this.userParams
     }
 }

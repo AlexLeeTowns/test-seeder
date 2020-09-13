@@ -1,6 +1,5 @@
 export default class Module {
     userParams: object;
-    constructor(params: object = {}) { this.userParams = params }
-
-    get body() { return { } }
+    body;
+    constructor(params: object = {}, body = { }) { this.userParams = params, this.body = body }
 }
