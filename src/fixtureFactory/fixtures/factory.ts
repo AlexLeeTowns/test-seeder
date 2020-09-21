@@ -15,7 +15,7 @@ export default class FixtureFactory {
         return new Model({}, result.data)
     }
 
-    async mockCreate(model: any, params: object = {}) {
+    mockCreate(model: any, params: object = {}) {
         return new model(params)
     }
 }
